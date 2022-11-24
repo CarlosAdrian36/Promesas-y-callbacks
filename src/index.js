@@ -1,5 +1,8 @@
 import './style.css';
 
+const heroeId = 'capi';
 
 
-console.log('Hola mundoS')
+buscarHeroe( heroeId, () => {
+    console.log('callbackllamado');
+} );
