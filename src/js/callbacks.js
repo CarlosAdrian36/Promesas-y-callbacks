@@ -15,5 +15,11 @@ const  heroes = {
 }
 
 
+export const buscarHeroe = (id, callback)=>{
 
+
+    const heroe = heroes[id];
+
+    callback( heroe );
+}
 
